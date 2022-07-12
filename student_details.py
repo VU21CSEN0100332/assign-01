@@ -46,7 +46,21 @@ Make sure you fill in the right details.
 
 def my_details():
   """Return a dictionary with your details in the format as specified in the above instructions"""
-  pass
+  d={}
+  d["name"]={}
+  d["name"]["first-name"]="phanindra"
+  d["name"]["last-name"]="reddy"
+  d["roll-number"]="VU21CSEN0100332"
+  d["branch"]="cse"
+  d["specialization"]="core"
+  d["email-id"]="pmallidi@gitam.in"
+  d["moodle-id"]="pmallidi@gitam.in"
+  d["github-id"]="pmallidi@gitam.in"
+  d["replit-id"]="pmallidi@gitam.in"
+  d["semester"]="2"
+  d["year"]="1"
+  return d
+
 
 
 # now call your function
